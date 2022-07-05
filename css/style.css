@@ -7,6 +7,7 @@
     --orange: #F27405;
     --dkred: #731702;
     --white: #f7f8fa;
+    --portcolor: #014040;
     --font-size: 1.3rem;
     --barlow: "Barlow", sans-serif;
     --montserrat: "Montserrat", sans-serif;
@@ -156,12 +157,12 @@ nav [class*="fa-"]:hover{
 /* divs background color */
 
 .section-contact{
-    background-color: var(--dkmarine);
+    background-color: #583767;
 }
 
 .section-about,
 .section-project{
-    background-color: var(--mdmarine);
+    background-color: var(--dkmarine);
 }
 
 .gradient{
@@ -192,6 +193,7 @@ nav [class*="fa-"]:hover{
 
 .paragraph-box{
     background-color: var(--black);
+    border: 1px solid var(--orange);
     padding: 1rem;
     border-radius: 10px;
     color: var(--white);
